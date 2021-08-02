@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    height: 100%;
+}
+.image1{
+    background-image: url(images/image1.jpeg);
+    min-height: 500px;
+}
+.image1,.image2,.image3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.image2{
+    background-image: url(images/image2.jpeg);
+    min-height:900px;
+}
+.image3{
+    background-image: url(images/image3.jpeg);
+    min-height:900px;
+}
+.text,.text1{
+    padding: 40px 80px;
+    background-color: beige;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.text1{
+    position: absolute;
+    background-color: #282e34;
+    color: white;
+    opacity: 0.70;
+    
+    
+    
+    
+
+}
