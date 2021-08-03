@@ -5,10 +5,7 @@
 body{
     height: 100%;
 }
-.image1{
-    background-image: url(images/image1.jpeg);
-    min-height: 500px;
-}
+
 .image1,.image2,.image3{
     position: relative;
     opacity: 0.70;
@@ -17,6 +14,10 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 
+}
+.image1{
+    background-image: url(images/image1.jpeg);
+    min-height: 500px;
 }
 .image2{
     background-image: url(images/image2.jpeg);
@@ -37,12 +38,6 @@ body{
 }
 .text1{
     position: absolute;
-    background-color: #abc8e4;
+    background-color: black;
     color: white;
-    opacity: 0.80;
-    
-    
-    
-    
-
 }
